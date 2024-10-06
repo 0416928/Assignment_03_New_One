@@ -6,6 +6,7 @@ Date: {October 3, 2024}
 
 # IMPORT STATEMENTS
 from pprint import pprint
+import csv
 
 # Display Current Balances
 dictionary = {}
@@ -43,7 +44,14 @@ pprint(dictionary)
 
 file_name = "updated_balances_GK.csv"
 
+# Write the Updated Data
 with open("updated_balances_GK.csv", "w") as new_file:
       new_file.write("Account,Balance")
       for key,value in dictionary.items():
         new_file.write(f"\n{key},{value}")
+
+# Display the Updated Data
+with open("updated_balances_GK.csv", "r") as reading_file:
+      reader = csv.DictReader(reading_file)
+      for row in reader:
+        print(row)
