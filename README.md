@@ -13,3 +13,9 @@ Assignment_03_New_One
 ## Assignment
 
 [The name of this assignment is Assignment_03_New_One and this assignment is related to logics and loops.]
+
+## Program Name
+
+## bank_transaction.py
+
+[This program will allow users to easily deposit and withdraw transactions to manage their bank account transactions.]
