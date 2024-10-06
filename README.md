@@ -16,6 +16,16 @@ Assignment_03_New_One
 
 ## Program Name
 
+# Part-1
+
 ## bank_transaction.py
 
 [This program will allow users to easily deposit and withdraw transactions to manage their bank account transactions.]
+
+## Program name
+
+# Part-2
+
+## interest_update.py
+
+[This program will apply interests to multiple customers accounts based on their current balance.]
