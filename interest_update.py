@@ -40,3 +40,10 @@ for number,value in dictionary.items():
       dictionary[number] = rate 
 
 pprint(dictionary)  
+
+file_name = "updated_balances_GK.csv"
+
+with open("updated_balances_GK.csv", "w") as new_file:
+      new_file.write("Account,Balance")
+      for key,value in dictionary.items():
+        new_file.write(f"\n{key},{value}")
