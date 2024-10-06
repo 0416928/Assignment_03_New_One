@@ -43,7 +43,6 @@ for number,value in dictionary.items():
 pprint(dictionary)  
 
 file_name = "updated_balances_GK.csv"
-
 # Write the Updated Data
 with open("updated_balances_GK.csv", "w") as new_file:
       new_file.write("Account,Balance")
